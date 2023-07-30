@@ -1,0 +1,70 @@
+.item-visible
+{
+    padding: 20rem;
+}
+body::-webkit-scrollbar
+{
+    display:none;
+}
+.btn
+{
+    width:5rem;
+    height: 15rem;
+    padding: 5px 20px;
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0px 20px black;
+    font-size: 3rem;
+    border: none;
+    position: absolute;
+    outline: none;
+    border-radius: 10px;
+    z-index:2;
+    top: 20%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    cursor: pointer;
+
+    &:active
+    {
+        border: 3px solid rgb(255, 255, 255);
+    }
+}
+.btn.increase
+{
+    right:2rem;
+}
+.btn.decrease
+{
+    left: 2rem;
+
+}
+.slide-container
+{
+    width: 100vw;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-stop: always;
+    scroll-snap-type: mandatory;
+    scroll-snap-align: start;
+}
+.slide-container::-webkit-scrollbar
+{
+    scroll-snap-type: mandatory;
+    scroll-snap-align: center;
+    background-color: aqua;
+    display: none;
+}
+.slide-container img{
+    display: none;
+    opacity: .3;
+    background-color: red;
+    transition: all .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.slide-container img.active-slide
+{
+    display:block;
+    opacity: .9;
+}
+.slide 
+{
+}

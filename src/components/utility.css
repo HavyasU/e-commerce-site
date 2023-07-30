@@ -1,0 +1,98 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root
+{
+    --primary-font:arial;
+}
+.black
+{
+    color: #0f1111;
+}
+.bg-black
+{
+    background-color:#0f1111;
+}
+.white
+{
+    color: #ffffff;
+}
+.bg-white
+{
+    background-color:#ffffff;
+}
+.font-small
+{
+    font-size:10px;
+}
+.font-medium
+{
+    font-size:1rem;
+}
+.font-large
+{
+    font-size:2rem;
+}
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.not-justify
+{
+    justify-content: start;
+   
+}
+.not-align
+{
+    align-items: start;
+}
+.text-center
+{
+    text-align: center;
+}
+.text-start
+{
+    text-align: start;
+}
+.align-start
+{
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.padding-10
+{
+  padding:10px;
+}
+.padding-r-10
+{
+  padding-right:10px;
+}
+.padding-t-10
+{
+  padding-top:10px;
+}
+.padding-l-10
+{
+  padding-left:10px;
+}
+.auto-padding
+{
+    padding: auto;
+}
+.auto-margin
+{
+    margin: auto;
+}
