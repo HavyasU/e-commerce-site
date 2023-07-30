@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Carousel from 'react-elastic-carousel';
 import './slider.css';
 
 const Slider = () => {
